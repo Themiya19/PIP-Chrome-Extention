@@ -1,0 +1,13 @@
+{
+  "manifest_version": 3,
+  "name": "Universal Picture-in-Picture",
+  "version": "1.0",
+  "description": "Enable Picture-in-Picture for any video on any site.",
+  "permissions": ["activeTab", "scripting"],
+  "action": {
+    "default_title": "Enable Picture-in-Picture"
+  },
+  "background": {
+    "service_worker": "background.js"
+  }
+} 
